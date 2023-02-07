@@ -122,3 +122,8 @@ header {
 .blogs__main-card--info button:hover {
   background-color: var(--prim-1-color);
 }
+
+hr {
+  width: 85%;
+  margin: 25px auto;
+}

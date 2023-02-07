@@ -39,7 +39,7 @@ header {
   grid-template-rows: 120px 80% 80px;
   overflow: hidden;
   background-color: var(--prim-2-tonalidad-media-baja-color);
-  background-image: url("../assets/wall2.png");
+  background-image: url("../assets/fondos/wall2.png");
   background-position: center;
 }
 
