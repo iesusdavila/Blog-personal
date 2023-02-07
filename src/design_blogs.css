@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,100;1,300;1,500;1,700&display=swap");
-
 :root {
   --prim-1-color: #0693e3;
   --prim-2-color: #434a54;
@@ -30,7 +28,7 @@ ul {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 
 header {
@@ -41,7 +39,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20%;
+  gap: 15%;
   background-color: var(--prim-1-color);
 }
 
@@ -59,7 +57,13 @@ header {
 .header__opciones-lista li {
   padding: 0 5px;
   font-size: 20px;
+  font-weight: bold;
+  color: var(--prim-2-tonalidad-alta-color);
   transition: all 0.2s linear;
+}
+
+.header__opciones-lista li:hover {
+  background-color: var(--prim-2-tonalidad-alta-color);
 }
 
 .blogs__main {
@@ -117,7 +121,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   background-color: var(--prim-2-tonalidad-baja-color);
-  transition: background-color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .blogs__main-card--info button:hover {
@@ -185,7 +189,7 @@ article.blog_last-item {
   font-weight: bold;
   cursor: pointer;
   background-color: #ffff;
-  transition: background-color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .blogs__last-card--info button:hover {
