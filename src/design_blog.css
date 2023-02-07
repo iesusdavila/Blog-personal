@@ -183,3 +183,53 @@ main {
   background-color: #007bb6;
   border-color: var(--prim-2-color);
 }
+
+@media (max-width: 1024px) {
+  .header__opciones-lista {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    /* flex-direction: column; */
+    gap: 0;
+  }
+
+  .header__opciones-lista {
+    gap: 5px;
+  }
+
+  main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    height: 150px;
+  }
+
+  .header__opciones-lista {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .footer__container {
+    height: 120px;
+    text-align: center;
+  }
+
+  .footer__container-empresa {
+    display: none;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .main__img {
+    height: 300px;
+    width: 300px;
+  }
+}
