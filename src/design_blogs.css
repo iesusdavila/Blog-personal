@@ -308,7 +308,6 @@ article.blog_last-item {
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
     gap: 0;
   }
 
@@ -343,6 +342,10 @@ article.blog_last-item {
 }
 
 @media (max-width: 425px) {
+  header {
+    height: 150px;
+  }
+
   .header__opciones-lista {
     flex-wrap: wrap;
     gap: 0;
