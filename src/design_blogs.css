@@ -111,11 +111,12 @@ header {
 }
 
 .blogs__main-card--info a button {
-  border-bottom: 2px solid var(--prim-2-tonalidad-alta-color);
+  border: 3px solid var(--prim-1-color);
   padding: 10px 25px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  background-color: var(--prim-2-tonalidad-baja-color);
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -126,4 +127,66 @@ header {
 hr {
   width: 85%;
   margin: 25px auto;
+}
+
+.blogs__last--sect {
+  font-size: 22px;
+  font-weight: bolder;
+  padding-bottom: 25px;
+}
+
+article.blog_last-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 550px;
+  justify-items: center;
+  row-gap: 50px;
+}
+
+.blogs__last {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.blogs__last--card {
+  width: 300px;
+  height: 550px;
+  padding: 10px;
+  border: 3px groove var(--prim-2-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.blogs__last-card--img {
+  height: 300px;
+}
+.blogs__last-card--img img {
+  height: 100%;
+}
+
+.blogs__last-card--info h2 {
+  height: 35px;
+  font-size: 30px;
+}
+
+.blogs__last-card--info p {
+  height: 135px;
+  padding: 10px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--prim-2-tonalidad-media-alta-color);
+}
+
+.blogs__last-card--info a button {
+  border: 2px solid var(--prim-1-color);
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.blogs__last-card--info button:hover {
+  background-color: var(--prim-1-color);
 }
