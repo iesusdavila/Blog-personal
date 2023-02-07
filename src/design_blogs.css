@@ -59,11 +59,10 @@ header {
   font-size: 20px;
   font-weight: bold;
   color: var(--prim-2-tonalidad-alta-color);
-  transition: all 0.2s linear;
 }
 
 .header__opciones-lista li:hover {
-  background-color: var(--prim-2-tonalidad-alta-color);
+  border-bottom: 2px solid var(--prim-2-tonalidad-alta-color);
 }
 
 .blogs__main {
