@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,100;1,300;1,500;1,700&display=swap");
+
+:root {
+  --prim-1-color: #0693e3;
+  --prim-2-color: #434a54;
+  --prim-2-tonalidad-baja-color: #e6e9ed;
+  --prim-2-tonalidad-media-baja-color: #ccd1d9;
+  --prim-2-tonalidad-media-alta-color: #656d78;
+  --prim-2-tonalidad-alta-color: #23282d;
+  --sec-1-color: #ac92ec;
+  --sec-2-color: #7ce708;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 0;
+  color: var(--prim-2-tonalidad-alta-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  background-color: var(--prim-1-color);
+}
+
+.header__logo a img {
+  height: 45px;
+}
+
+.header__opciones-lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.header__opciones-lista li {
+  padding: 0 5px;
+  font-size: 20px;
+  transition: all 0.2s linear;
+}
+
+.blogs__main {
+  width: 100%;
+  margin-top: 25px;
+  padding: 25px 0;
+  background-color: var(--prim-2-tonalidad-baja-color);
+}
+
+.blogs__main--secact {
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.blogs__main--card {
+  width: 65%;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.blogs__main-card--img img {
+  height: 100%;
+}
+
+.blogs__main-card--info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.blogs__main-card--info h2 {
+  font-size: 32px;
+}
+
+.blogs__main-card--info p {
+  font-size: 20px;
+  color: var(--prim-2-tonalidad-media-alta-color);
+}
+
+.blogs__main-card--info a button {
+  border-bottom: 2px solid var(--prim-2-tonalidad-alta-color);
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.blogs__main-card--info button:hover {
+  background-color: var(--prim-1-color);
+}

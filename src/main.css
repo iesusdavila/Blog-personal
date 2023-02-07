@@ -19,7 +19,7 @@
 a {
   text-decoration: none;
   display: inline;
-  color: var(--prim-2-color);
+  color: var(--prim-2-tonalidad-alta-color);
 }
 
 body {
